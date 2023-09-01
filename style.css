@@ -1,0 +1,138 @@
+body {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ margin: 0;   
+}
+
+a {
+    color: currentColor;
+    display: inline-block;
+    padding: 20px;
+    transition: color 400ms ease-in-out;
+}
+
+h1 {
+    margin-left:  30px;
+}
+h2 {
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-left:  30px;
+    
+}
+div {
+    color: white;
+}
+#haut, #playing, #cover {
+    display: flex;
+    
+}
+#droite, #cover, #image, #text, #tracklist  {
+    background: linear-gradient(#000,#313131);
+}
+#titre1, #titre2, #titre3, #titre4 ,#texte1, #temps {
+    background-color: #313131;
+}
+#droite, #name {
+    flex-grow: 1;
+}
+#gauche {
+    background-color: #313131;
+    width: 5%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#gauche>a {
+    margin-left: 5px;
+}
+#cover{
+    padding: 10px;
+}
+
+div #tracklist {
+    background-color: #313131;
+    width: 100%;
+    height: 165px;
+    margin: 0px;
+    padding: 0px; 
+}
+#tracklist> div {
+    border-top: 1px solid rgba(255, 255, 255, 0.1) ;
+}
+
+#playing {
+    
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    padding-top: 0px;
+    
+}
+#playing> div {
+    background-color: #313131;
+}
+#pochette {
+    padding: 10px;
+}
+#boutons {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    width: 10%;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    
+
+}
+#tracklist, #titre1> div {
+    display: inline;
+    flex-direction: row;
+    margin-left: 10px; 
+}
+#tracklist, #titre2> div {
+    display: inline;
+    flex-direction: row; 
+    margin-left: 10px;
+    
+    
+}
+#tracklist, #titre3> div {
+    display: inline;
+    flex-direction: row;
+    margin-left: 10px;
+     
+}
+#tracklist, #titre4> div {
+    display: inline;
+    flex-direction: row;
+    margin-left: 10px;
+       
+}
+
+#temps {
+    float: right;
+    margin-right: 10px;
+}
+#titre1, #titre2, #titre3, #titre4 {
+    margin-bottom: 10px;
+    padding: 2px;
+}
+#playing, #track {
+    color: rgb(32, 192, 255);
+    margin: 0 0 10px;
+
+    
+}
+#playing, #author {
+    font-size: 0.8em;
+    margin: 0; 
+}
+#track {
+    padding: 10px;
+}
+#author {
+    padding: 10px;
+}
+
+
